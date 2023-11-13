@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>This is the start of the code.</h1>
+    <div id="root">
+      <h1>Something is already here</h1>
+      <!-- Note :- So if we have something already here and then we are using the root.render method then the element presnet in the root div will be replaced by the root.render element which will be rendered as soon as the script tag will render. -->
+    </div>
+    <!-- So here as we are using the react code to affact only the "root" element into this code, the h1 and h2 tags will be there as it is. Here we are using the react in a very small part of the whole code. This is why React is a library and not a framework, as we can use react anywhere as in our existing project or in a new project -->
+    <h2>This is the end of the code.</h2>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+<!-- Here the order of the code is also matters in writing the code as when the particular element or tag have been written or been used -->
